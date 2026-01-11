@@ -2,6 +2,7 @@ const accountId = 321654
 let accountEmail = "hitesh@gmail.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
+let accountState; // undefined
 
 // accountId = 456789 // This will throw an error because accountId is a constant
 accountEmail = "abc@gmail.com"
@@ -15,4 +16,4 @@ accountCity = "Mumbai" // This is valid.
 */
 
 // console.log(accountId)
-console.table([accountId,accountEmail, accountPassword, accountCity])
+console.table([accountId,accountEmail, accountPassword, accountCity, accountState])
